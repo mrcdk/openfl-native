@@ -59,9 +59,9 @@ class Tilesheet {
 	}
 	
 	
-	public function drawTiles (graphics:Graphics, tileData:Array<Float>, smooth:Bool = false, flags:Int = 0, count:Int = -1):Void {
+	public function drawTiles (graphics:Graphics, tileData:Array<Float>, smooth:Bool = false, program:Int = 0, flags:Int = 0, count:Int = -1):Void {
 		
-		graphics.drawTiles (this, tileData, smooth, flags, count);
+		graphics.drawTiles (this, tileData, smooth, program, flags, count);
 		
 	}
 	
